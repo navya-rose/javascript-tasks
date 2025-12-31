@@ -1,0 +1,9 @@
+
+function palindrome(word){
+    let result=""
+    for(i=word.lengh-1;i>=0;i--){
+        result+=word[i]
+    }
+    return result = palindrome
+}
+console.log(palindrome("racecar"));

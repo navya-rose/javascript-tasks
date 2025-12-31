@@ -10,14 +10,3 @@ for(r=1;r<=5;r++){
     console.log(pattern);
     
 }
-for(r=1;r<=4;r++){
-    let pattern=""
-    for(i=1;i<=r;i++){
-        pattern+=" "
-    }
-    for(c=4;c>=r;c--){
-        pattern+="* "
-    }
-    console.log(pattern);
-    
-}
